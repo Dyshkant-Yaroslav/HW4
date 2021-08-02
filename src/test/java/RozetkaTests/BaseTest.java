@@ -19,13 +19,12 @@ import java.io.File;
 public class BaseTest {
 
     public WebDriver getDriver() {
-        WebdriverMultitone.setDriver();
         return WebdriverMultitone.getMultiDriver();
     }
 
     @BeforeTest
     public void set() {
-        WebdriverMultitone.setProperties();
+        WebdriverSingletone.setProperties();
     }
 
     @BeforeMethod

@@ -2,6 +2,7 @@ package RozetkaTests;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import util.WebdriverMultitone;
 
 
 public class SumInCartIsLessThanRequiredTest extends BaseTest {
